@@ -1,15 +1,15 @@
+import React from 'react';
 import './App.css';
-import Form from './Components/Book Appointment/Form';
-import Main from './Components/Main Page/Main';
+import Form from './Components/BookAppointment/Form';
+import Main from './Components/MainPage/Main';
 import Navbar from './Components/Navbar/Navbar';
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Main />
-      <Form/>
+      <Form />
     </div>
-
   );
 }
 

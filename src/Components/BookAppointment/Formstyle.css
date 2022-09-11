@@ -1,0 +1,87 @@
+.card {
+  margin: auto;
+  margin-top: -100px;
+  align-items: center;
+  width: 70%;
+  background-color: #2abd8c;
+  border-radius: 10px;
+}
+h3 {
+  font-size: 2rem;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  color: aquamarine;
+  margin-left: 30px;
+}
+.form {
+  position: relative;
+  margin-left: 100px;
+}
+.form > .textbox {
+  border: 2px solid white;
+  border-radius: 5px;
+  outline: none;
+  background: none;
+  padding: 10px;
+  color: white;
+  margin: 15px;
+  font-family: "Poppins", sans-serif;
+}
+.form > .label {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.form > .textbox:focus ~ .label,
+.textbox:not(:placeholder-shown).textbox:not(:focus) ~ .label {
+  top: 0.1rem;
+  left: 1.4rem;
+  font-size: 15px;
+  background: #2abd8c;
+}
+.form > .label1 {
+  position: absolute;
+  top: 1.5rem;
+  left: 15.5rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.form > .textbox:focus ~ .label1,
+.textbox:not(:placeholder-shown).textbox:not(:focus) ~ .label1 {
+  top: 0.1rem;
+  left: 15.4rem;
+  font-size: 15px;
+  background: #2abd8c;
+}
+.form > .label2 {
+  position: absolute;
+  top: 1.5rem;
+  left: 29rem;
+  cursor: text;
+  transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+}
+.form > .textbox:focus ~ .label2,
+.textbox:not(:placeholder-shown).textbox:not(:focus) ~ .label2 {
+  top: 0.1rem;
+  left: 29.4rem;
+  background: #2abd8c;
+}
+.form > .butn {
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: #fff;
+  color: #2abd8c;
+  border: 2px solid #fff;
+  overflow: hidden;
+  transition: 0.8s;
+  position: relative;
+}
+.form > .butn:hover{
+    color: rgb(217, 217, 234);
+}
+

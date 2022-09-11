@@ -23,6 +23,7 @@ h1 {
   font-weight: 700;
   line-height: 65px;
   color: whitesmoke;
+  
 }
 p {
   font-size: 1rem;
@@ -57,6 +58,10 @@ p {
 }
 .left > img {
   padding: 62px 0;
-
-  width: 100%;
+  width: 78%;
+  margin-top: -88px;
+  margin-left: 134px;
+}
+.btn1:hover, .btn2:hover{
+  color: rgb(217, 217, 234);
 }
