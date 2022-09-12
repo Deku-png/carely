@@ -1,0 +1,36 @@
+.customers {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  max-width: 1200px;
+  margin: 100px auto;
+  width: 100%;
+}
+
+.customers td,
+.customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #48cb9f;
+  color: white;
+}
+.customers > .btn2 {
+  display: flex;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #fff;
+  color: #48cb9f;
+  border: 2px solid #48cb9f;
+  cursor: pointer;
+}

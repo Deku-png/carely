@@ -3,34 +3,42 @@
   margin-top: -100px;
   align-items: center;
   width: 70%;
-  background-color: #2abd8c;
+  background-color: #fff;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 h3 {
   font-size: 2rem;
   padding: 20px;
   font-family: "Poppins", sans-serif;
   color: aquamarine;
-  margin-left: 30px;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
 }
 .form {
   position: relative;
   margin-left: 100px;
 }
 .form > .textbox {
-  border: 2px solid white;
+  border: 2px solid #48cb9f;
   border-radius: 5px;
   outline: none;
   background: none;
   padding: 10px;
-  color: white;
+  color: #48cb9f;
   margin: 15px;
   font-family: "Poppins", sans-serif;
+}
+.form > .textbox > ::placeholder {
+  color: #48cb9f;
 }
 .form > .label {
   position: absolute;
   top: 1.5rem;
   left: 1.5rem;
+  color: #48cb9f;
+  background: #fff;
   cursor: text;
   transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
 }
@@ -62,26 +70,25 @@ h3 {
   cursor: text;
   transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
 }
-.form > .textbox:focus ~ .label2,
+/* .form > .textbox:focus ~ .label2,
 .textbox:not(:placeholder-shown).textbox:not(:focus) ~ .label2 {
   top: 0.1rem;
   left: 29.4rem;
   background: #2abd8c;
-}
+} */
 .form > .butn {
   padding: 12px 20px;
   border-radius: 10px;
   font-size: 1rem;
   font-weight: 600;
   cursor: pointer;
-  background: #fff;
-  color: #2abd8c;
+  background: #48cb9f;
+  color: #fff;
   border: 2px solid #fff;
   overflow: hidden;
   transition: 0.8s;
   position: relative;
 }
-.form > .butn:hover{
-    color: rgb(217, 217, 234);
+.form > .butn:hover {
+  color: rgb(217, 217, 234);
 }
-

@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  max-width: 1200px;
+  padding: 0 10%;
+  background-color: #48cb9f;
   margin: auto;
   height: 100vh;
   overflow: hidden;
@@ -23,7 +24,6 @@ h1 {
   font-weight: 700;
   line-height: 65px;
   color: whitesmoke;
-  
 }
 p {
   font-size: 1rem;
@@ -59,9 +59,10 @@ p {
 .left > img {
   padding: 62px 0;
   width: 78%;
-  margin-top: -88px;
-  margin-left: 134px;
+  margin-top: -62px;
+  margin-left: 120px;
 }
-.btn1:hover, .btn2:hover{
+.btn1:hover,
+.btn2:hover {
   color: rgb(217, 217, 234);
 }

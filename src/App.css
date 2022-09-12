@@ -4,6 +4,6 @@
   box-sizing: border-box;
 }
 .App {
-  background: #48cb9f;
-  height: 110vh;
+  background: #fff;
+  padding-bottom: 250px;
 }
